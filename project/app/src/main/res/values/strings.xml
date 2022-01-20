@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">project</string>
+    <string name="human_vs_ghost">Human vs. Ghost</string>
+    <string name="press_to_start">Press to start</string>
+    <string name="presented_by_aos10">Presented by AOS10</string>
+    <string name="presented_by_wll">Presented by WLL</string>
+    <string name="press_to_continue">Press to continue</string>
+    <string name="todo">TODO</string>
+    <string name="chat_room">Chat room</string>
+    <string name="search">search</string>
+    <string name="create">創建房間</string>
+    <string name="room_name">room_name</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="store">store</string>
+    <string name="done">時間結束！</string>
+    <string name="remain">遊戲時間:</string>
+    <string name="search_room">請輸入房間名稱:</string>
+    <string name="get_context">get_context</string>
+    <string name="username">請輸入遊戲暱稱:</string>
+</resources>

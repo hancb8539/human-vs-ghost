@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Shop_for_Ghost">
+
+    <Button
+        android:id="@+id/gitem3"
+        android:layout_width="182dp"
+        android:layout_height="234dp"
+        android:layout_marginStart="94dp"
+        android:layout_marginTop="58dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginBottom="136dp"
+        android:text="gitem3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/gitem2"
+        app:layout_constraintTop_toBottomOf="@+id/gitem1" />
+
+    <Button
+        android:id="@+id/gitem2"
+        android:layout_width="105dp"
+        android:layout_height="121dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="58dp"
+        android:layout_marginBottom="136dp"
+        android:text="gitem2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/gitem3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gitem0" />
+
+    <Button
+        android:id="@+id/gitem1"
+        android:layout_width="105dp"
+        android:layout_height="121dp"
+        android:layout_marginStart="94dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="47dp"
+        android:text="gitem1"
+        app:layout_constraintBottom_toTopOf="@+id/gitem3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/gitem0"
+        app:layout_constraintTop_toBottomOf="@+id/GLOBAL_itemg1" />
+
+    <Button
+        android:id="@+id/gitem0"
+        android:layout_width="105dp"
+        android:layout_height="121dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="44dp"
+        android:text="gitem0"
+        app:layout_constraintBottom_toTopOf="@+id/gitem2"
+        app:layout_constraintEnd_toStartOf="@+id/gitem1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/GLOBAL_itemg0" />
+
+    <Button
+        android:id="@+id/GLOBAL_itemg1"
+        android:layout_width="105dp"
+        android:layout_height="121dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="80dp"
+        android:text="Global_item1"
+        app:layout_constraintBottom_toTopOf="@+id/gitem1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/GLOBAL_itemg0"
+        app:layout_constraintTop_toBottomOf="@id/your_money" />
+
+    <Button
+        android:id="@+id/GLOBAL_itemg0"
+        android:layout_width="105dp"
+        android:layout_height="121dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginEnd="94dp"
+        android:layout_marginBottom="44dp"
+        android:text="GLOBAL_item0"
+        app:layout_constraintBottom_toTopOf="@+id/gitem0"
+        app:layout_constraintEnd_toStartOf="@+id/GLOBAL_itemg1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/your_money"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="154dp"
+        android:layout_marginEnd="48dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/GLOBAL_itemg1"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+</androidx.constraintlayout.widget.ConstraintLayout>
